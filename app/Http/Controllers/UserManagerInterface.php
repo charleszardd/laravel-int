@@ -6,12 +6,8 @@ use Illuminate\Http\Request;
 
 interface UserManagerInterface
 {
-    public function editUser(int $userId, array $userData)
-    {
-        //
-    }
-    public function deleteUser(int $userId)
-    {
-        //
-    }
+    public function editUser(int $userId, array $userData);
+
+    public function deleteUser(int $userId);
+
 }
