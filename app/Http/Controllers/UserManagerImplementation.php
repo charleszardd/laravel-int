@@ -15,6 +15,8 @@ class UserManagerImplementation implements UserManagerInterface
         if($user){
             $user->update($userData);
             return true;
+
+           
         }
         return false;
 
